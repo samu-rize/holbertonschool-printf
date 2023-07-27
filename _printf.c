@@ -48,6 +48,5 @@ int _printf(const char *format, ...)
 		n++;
 	}
 	va_end(arg);
-	_putchar('\n');
 	return (n);
 }

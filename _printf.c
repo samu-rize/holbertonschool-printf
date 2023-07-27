@@ -42,17 +42,16 @@ int _printf(const char *format, ...)
 					i++;
 					break;
 				}
-				if (choice[j].letter == '\0')
+				else
 				{
 					_putchar('%');
-					n++;
+					break;
 				}
 				j++;
 			}
 		}
 		_putchar(format[i++]);
 		n++;
-		i++;
 	}
 	va_end(arg);
 	return (n);

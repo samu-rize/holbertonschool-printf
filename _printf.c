@@ -16,7 +16,7 @@
 
 int _printf(const char *format, ...)
 {
-	int i = 0, j, n = 0;
+	int i = 0, j, n = 1;
 
 	va_list arg;
 

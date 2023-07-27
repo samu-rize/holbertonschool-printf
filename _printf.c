@@ -33,19 +33,12 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			j = 0;
-			i++;
 			while (choice[j].letter != '\0')
 			{
-				if (choice[j].letter == format[i])
+				if (choice[j].letter == format[i + 1])
 				{
 					n += choice[j].func(arg);
-					i++;
-					break;
-				}
-				else
-				{
-					_putchar('%');
-					break;
+					i += 2;
 				}
 				j++;
 			}

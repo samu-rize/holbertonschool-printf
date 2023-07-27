@@ -41,6 +41,11 @@ int _printf(const char *format, ...)
 					n += choice[j].func(arg);
 					i++;
 				}
+				else
+				{
+					_putchar('%');
+					break;
+				}
 				j++;
 			}
 		}

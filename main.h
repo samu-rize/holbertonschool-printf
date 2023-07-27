@@ -28,8 +28,4 @@ typedef struct dt
 	int (*func)(va_list);
 } datatype;
 
-
-
-
-
 #endif

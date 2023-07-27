@@ -6,9 +6,9 @@
  * @...: Additional arguments depending on format specifiers.
  *
  * Description: This function is a custom implementation of the printf function
- *              that supports the following format specifiers: '%c' for characters,
- *              '%s' for strings, and '%%' to print a percent symbol.
- *              It prints the formatted output to the standard output.
+ * that supports the following format specifiers: '%c' for characters,
+ * '%s' for strings, and '%%' to print a percent symbol.
+ * It prints the formatted output to the standard output.
  *
  * Return: The total number of characters printed (excluding the null byte
  *         used to end output to strings) or -1 if an error occurs.

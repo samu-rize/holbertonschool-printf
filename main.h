@@ -25,16 +25,11 @@ int print_percent(va_list arg);
 typedef struct dt
 {
 	char letter;
-	void (*func)(va_list);
+	int (*func)(va_list);
 } datatype;
 
 
-datatype choice[] = {
-	{'c', print_char},
-	{'s', print_string},
-	{'%', print_percent},
-	{'\0', NULL}
-};
+
 
 
 #endif

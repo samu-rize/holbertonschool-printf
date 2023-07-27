@@ -35,7 +35,7 @@ int print_string(va_list arg)
 
 	s = va_arg(arg, char *);
 
-	while (s[i] !⁼ '\0')
+	while (s[i] != '\0')
 	{
 		_putchar(s[i]);
 		i++;
@@ -56,6 +56,7 @@ int print_string(va_list arg)
 
 int print_percent(va_list arg)
 {
+	(void)arg;
 	_putchar('%');
 	return (1);
 }

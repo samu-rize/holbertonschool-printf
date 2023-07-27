@@ -20,7 +20,14 @@ int _printf(const char *format, ...)
 
 	va_list arg;
 
-	va_start(arg, format)
+	datatype choice[] = {
+		{'c', print_char},
+		{'s', print_string},
+		{'%', print_percent},
+		{'\0', NULL}
+	};
+
+	va_start(arg, format);
 	while (format != NULL && format[i] != '\0')
 	{
 		if (format[i] == '%')

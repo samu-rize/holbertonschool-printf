@@ -40,6 +40,7 @@ int _printf(const char *format, ...)
 				{
 					n += choice[j].func(arg);
 					i++;
+					break;
 				}
 				else
 				{

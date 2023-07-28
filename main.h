@@ -6,9 +6,9 @@
 #include <stdarg.h>
 
 /**
-* struct convert - defines a structure for symbols and functions
+* struct control - defines a structure for symbols and functions
 *
-* @sym: The operator
+* @symbol: The operator
 * @f: The function associated
 */
 struct control

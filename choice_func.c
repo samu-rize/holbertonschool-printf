@@ -44,7 +44,7 @@ int print_percent(__attribute__((unused))va_list list)
  * @list: list of arguments
  * Return: Will return the amount of characters printed.
  */
-int print_decimal(va_arg list)
+int print_decimal(va_list list)
 {
 	int d = 1, len = 0, number = va_arg(list, int);
 	unsigned int tmp;

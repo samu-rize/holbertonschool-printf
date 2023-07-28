@@ -14,10 +14,10 @@ This means that it has one mandatory format argument, and an extra number of arg
 
 Each conversion specification is introduced by the character % and ends with a conversion specifier. In between there may be (in this order):
 
-> Zero or more flags
-> An optional field width
-> An optional precision modifier
-> An optional length modifier
+>> Zero or more flags.
+>> An optional field width.
+>> An optional precision modifier.
+>> An optional length modifier.
 
 ### The flag characters
 

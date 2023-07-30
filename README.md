@@ -62,6 +62,7 @@ where format can be a simple string without any specifiers or it can contain spe
 
 ## 💻 Features:
 * Supports a variety of format specifiers: %d, %s, %c, and %i .
+
 | Specifier:|	Output							|	Example			|
 | :---------|:----------------------------------|-----------------:	|
 |	c		|		Character					|		H			|
@@ -69,6 +70,7 @@ where format can be a simple string without any specifiers or it can contain spe
 |	d		|		decimal integer				|		100			|	
 |	i		|		Integer						|		100			|
 |	%		|		% followed by another %		|		%			|
+
 * Easy integration with existing C projects.
 * Customizable and extensible to suit your needs.
 * Lightweight and efficient.
@@ -96,8 +98,8 @@ To use our _printf in your C project, follow these steps:
 2. Include the main.h header file in your C source file.
 3. Compile your project along with the _printf source files.
 ### EXEMPLE
-#include "main.h"
 ```
+#include "main.h"
 int main() {
     int num = 42;
     char* message = "Hello, world!";
@@ -108,7 +110,7 @@ int main() {
 ## ✏️ Authors:
 * [Adib Ben Haddada](https://github.com/Adib-96)
 * [Ranim Zaouga](https://github.com/RanimZaouga)
-* [Samir Arfaoui] (https://github.com/samu-rize)
+* [Samir Arfaoui](https://github.com/samu-rize)
 
 
 

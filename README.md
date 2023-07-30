@@ -39,7 +39,7 @@ int _printf(const char *format, ...);
 ```
 where format can be a simple string without any specifiers or it can contain specifiers and the arguments corresponding to them.
 
-## 💻  What our file stand for:
+## 💻  Our project files:
 
 * [Main.h](https://github.com/samu-rize/holbertonschool-printf/blob/main/main.h) :The Header file
 * [_printf.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_printf.c):
@@ -48,7 +48,7 @@ where format can be a simple string without any specifiers or it can contain spe
 * [_write_char.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_write_char.c) :  
 * [man_3_printf](https://github.com/samu-rize/holbertonschool-printf/blob/main/man_3_printf) : 
 
-## 💻  Functions used:
+## 💻  Functions we used:
 
 * `write`
 * `va_start` 
@@ -60,7 +60,7 @@ where format can be a simple string without any specifiers or it can contain spe
 * Check this flowchart explaining the functions flow
 
 
-## 💻 Features:
+## 💻 _printf features:
 * Supports a variety of format specifiers: %d, %s, %c, and %i .
 
 | Specifier:|	Output							|	Example			|

@@ -32,4 +32,84 @@ Each conversion specification is introduced by the character % and ends with a c
 |  `''`  | (Blank Space) The argument is padded with a single blank space before a positive number or empty string produced by a signed conversion. |
 |  `+`   | A sign (+ or -) should always be placed before a number produced with a signed conversion. By default, only negative numbers have this sign. |
 
+## 💻  Function prototype
+```{r mon_bloc, echo = FALSE, WARNING = TRUE}
+
+int _printf(const char *format, ...);
+```
+where format can be a simple string without any specifiers or it can contain specifiers and the arguments corresponding to them.
+
+## 💻  What our file stand for:
+
+* [Main.h](https://github.com/samu-rize/holbertonschool-printf/blob/main/main.h) :The Header file
+* [_printf.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_printf.c):
+* [choice_func.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/choice_func.c) :
+* [ninja_Fun.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/ninja_Fun.c): 
+* [_write_char.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_write_char.c) :  
+* [man_3_printf](https://github.com/samu-rize/holbertonschool-printf/blob/main/man_3_printf) : 
+
+## 💻  Functions used:
+
+* `write`
+* `va_start` 
+* `va_end` 
+* `va_copy`
+* `va_arg`
+
+## 💻  _printf function flow:
+* Check this flowchart explaining the functions flow
+![flowchart](_printfFLOWCHART.png)
+
+## 💻 Features:
+* Supports a variety of format specifiers: %d, %s, %c, and %i .
+| Specifier:|	Output							|	Example			|
+| :---------|:----------------------------------|-----------------:	|
+|	c		|		Character					|		H			|
+|	s		|		String						|		Hello		|
+|	d		|		decimal integer				|		100			|	
+|	i		|		Integer						|		100			|
+|	%		|		% followed by another %		|		%			|
+* Easy integration with existing C projects.
+* Customizable and extensible to suit your needs.
+* Lightweight and efficient.
+
+## 💻  Compilation and testing
+
+#### Compiling via:
+```{r mon_bloc, echo = FALSE, WARNING = TRUE}
+$ gcc -Wall -Werror -Wextra -pedantic *.c
+```
+### EXEMPLE
+```
+_printf("cohort %d is the best cohort ever!\n", 21);
+
+```
+`the output` : 
+
+	cohort 21 is the best cohort ever!
+
+## 💻 Usage:
+
+To use our _printf in your C project, follow these steps:
+
+1. Download the _Printf library files from [GitHub repository](https://github.com/samu-rize/holbertonschool-printf).
+2. Include the main.h header file in your C source file.
+3. Compile your project along with the _printf source files.
+### EXEMPLE
+#include "main.h"
+```
+int main() {
+    int num = 42;
+    char* message = "Hello, world!";
+    
+    _printf("The answer is: %d\n", num);
+    _printf("Message: %s\n", message);
+```
+## Authors:
+* [Adib Ben Haddada](https://github.com/Adib-96)
+* [Ranim Zaouga](https://github.com/RanimZaouga)
+* [Samir Arfaoui] (https://github.com/samu-rize)
+
+
+
 

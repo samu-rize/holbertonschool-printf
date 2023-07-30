@@ -2,7 +2,7 @@
 
 ## Printf 
 
-### Synopsis
+### 💻 Synopsis
 <h3 style="color:red;">Not all features is implemented 🚧</h3>
 This is an implementaion of printf function that format and prints data to stdout 🖨️.
 The _printf() function returns the total number of characters printed to the stdout(excluding the null byte at the end of strings) after a successful execution.
@@ -66,7 +66,7 @@ where format can be a simple string without any specifiers or it can contain spe
 | Specifier:|	Output							|	Example			|
 | :---------|:----------------------------------|-----------------:	|
 |	c		|		Character					|		H			|
-|	s		|		String						|		Hello		|
+|	s		|		String						|		Holberton		|
 |	d		|		decimal integer				|		100			|	
 |	i		|		Integer						|		100			|
 |	%		|		% followed by another %		|		%			|

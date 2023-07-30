@@ -1,58 +1,30 @@
 #include "main.h"
 
 /**
- * _printf - Custom implementation of the printf function.
- * @format: The format string containing format specifiers.
- * @...: Additional arguments depending on format specifiers.
- *
- * Description: This function is a custom implementation of the printf function
- * that supports the following format specifiers: '%c' for characters,
- * '%s' for strings, and '%%' to print a percent symbol.
- * It prints the formatted output to the standard output.
- *
- * Return: The total number of characters printed (excluding the null byte
- *         used to end output to strings) or -1 if an error occurs.
+ * _printf - Receives the main string and all the necessary parameters to
+ * print a formated string
+ * @format: A string containing all characters
+ * Return: A total count of the characters printed
  */
-
 int _printf(const char *format, ...)
 {
-	int i = 0, j, n = 0;
-
-	va_list arg;
-
-	datatype choice[] = {
-		{'c', print_char},
-		{'s', print_string},
-		{'%', print_percent},
-		{'\0', NULL}
+	int printed_chars;
+	switcher f_list[] = {
+		{"c", print_char},
+		{"s", print_string},
+		{"%", print_percent},
+		{"d", print_decimal},
+		{"i", print_decimal},
+		{NULL, NULL}
 	};
+	va_list arg_list;
 
-	va_start(arg, format);
-	while (format != NULL && format[i] != '\0')
-	{
-		if (format[i] == '%')
-		{
-			j = 0;
-			i++;
-			while (choice[j].letter != '\0')
-			{
-				if (choice[j].letter == format[i])
-				{
-					n += choice[j].func(arg);
-					i++;
-					break;
-				}
-				else
-				{
-					_putchar('%');
-					break;
-				}
-				j++;
-			}
-		}
-		_putchar(format[i++]);
-		n++;
-	}
-	va_end(arg);
-	return (n);
+	if (format == NULL)
+		return (-1);
+
+	va_start(arg_list, format);
+	/*Calling ninja function*/
+	printed_chars = ninja_Fun(format, f_list, arg_list);
+	va_end(arg_list);
+	return (printed_chars);
 }

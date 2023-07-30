@@ -55,4 +55,4 @@ The \_printf\ function was created by
 as a custom implementation.
 
 .SH BUGS
-There are no known bugs in the \fB_printf\fP function.
+There are no known bugs in the _printf function.

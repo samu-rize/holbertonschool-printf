@@ -58,7 +58,7 @@ where format can be a simple string without any specifiers or it can contain spe
 
 ## 💻  _printf function flow:
 * Check this flowchart explaining the functions flow
-![flowchart](_printfFLOWCHART.png)
+
 
 ## 💻 Features:
 * Supports a variety of format specifiers: %d, %s, %c, and %i .

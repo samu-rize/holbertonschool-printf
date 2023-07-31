@@ -41,12 +41,12 @@ where format can be a simple string without any specifiers or it can contain spe
 
 ## 💻  Our project files:
 
-* [Main.h](https://github.com/samu-rize/holbertonschool-printf/blob/main/main.h) :The Header file
-* [_printf.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_printf.c):
-* [choice_func.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/choice_func.c) :
-* [ninja_Fun.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/ninja_Fun.c): 
-* [_write_char.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_write_char.c) :  
-* [man_3_printf](https://github.com/samu-rize/holbertonschool-printf/blob/main/man_3_printf) : 
+* [Main.h](https://github.com/samu-rize/holbertonschool-printf/blob/main/main.h) 
+* [_printf.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_printf.c)
+* [choice_func.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/choice_func.c) 
+* [ninja_Fun.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/ninja_Fun.c)
+* [_write_char.c](https://github.com/samu-rize/holbertonschool-printf/blob/main/_write_char.c)  
+* [man_3_printf](https://github.com/samu-rize/holbertonschool-printf/blob/main/man_3_printf)
 
 ## 💻  Functions we used:
 

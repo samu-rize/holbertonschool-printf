@@ -105,6 +105,9 @@ int main() {
     _printf("Message: %s\n", message); <code style="color : aquamarine"> Message: Hello, world!</code>
 }
 ```
+<span style="color:red">
+Text content
+</span>
 ## 👨‍💻 Authors:
 * [Adib Ben Haddada](https://github.com/Adib-96)
 * [Ranim Zaouga](https://github.com/RanimZaouga)

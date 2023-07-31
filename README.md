@@ -1,6 +1,7 @@
 # ASR Software Enginering Printf Team Project 💻
 
 ## Printf 
+![meme!](meme.jpg)
 
 ### 💻 Synopsis
 <h3 style="color:red;">Not all features is implemented 🚧</h3>
@@ -101,7 +102,7 @@ int main() {
     int num = 42;
     char* message = "Hello, world!";
     
-    _printf("The answer is: %d\n", num); <code style="color : aquamarine"> The answer is 42 </code>
+    _printf("The answer is: %d\n", num); <code style="color : aquamarine"> The answer is 42
     _printf("Message: %s\n", message); <code style="color : aquamarine"> Message: Hello, world!</code>
 }
 ```

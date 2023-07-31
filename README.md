@@ -101,8 +101,8 @@ int main() {
     int num = 42;
     char* message = "Hello, world!";
     
-    _printf("The answer is: %d\n", num); <span style="color: green"> The answer is 42 </span>
-    _printf("Message: %s\n", message); <span style="color: green"> Message: Hello, world!</span>
+    _printf("The answer is: %d\n", num); <code style="color : aquamarine"> The answer is 42 </code>
+    _printf("Message: %s\n", message); <code style="color : aquamarine"> Message: Hello, world!</code>
 }
 ```
 ## 👨‍💻 Authors:

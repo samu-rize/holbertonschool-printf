@@ -102,13 +102,9 @@ int main() {
     int num = 42;
     char* message = "Hello, world!";
     
-<<<<<<< HEAD
-    _printf("The answer is: %d\n", num); <code style="color : aquamarine"> The answer is 42
-    _printf("Message: %s\n", message); <code style="color : aquamarine"> Message: Hello, world!</code>
-=======
+
     _printf("The answer is: %d\n", num); //The answer is 42 
     _printf("Message: %s\n", message); //Message: Hello, world!
->>>>>>> 438bbcada47ba3f8597acb032f8354e71e89428e
 }
 ```
 

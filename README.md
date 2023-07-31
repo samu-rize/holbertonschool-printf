@@ -105,7 +105,7 @@ int main() {
     _printf("Message: %s\n", message); //Message: Hello, world!
 }
 ```
-## ✏️ Authors:
+## 👨‍💻 Authors:
 * [Adib Ben Haddada](https://github.com/Adib-96)
 * [Ranim Zaouga](https://github.com/RanimZaouga)
 * [Samir Arfaoui](https://github.com/samu-rize)
